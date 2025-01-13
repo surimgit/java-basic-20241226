@@ -15,5 +15,10 @@ public interface UserRepository {
 	boolean existById(String id);
 
 	UserEntity findById(String id);
+	
+	void updateByNickname(String id, String nickname);
+	
+	void deleteById(String id);
+	
+	void deleteOne(UserEntity userEntity);
 }
- 

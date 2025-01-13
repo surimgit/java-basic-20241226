@@ -14,6 +14,5 @@ public interface AuthController {
 	void signUp(SignUpRequestDto requestDto);
 	
 	// 로그인
-	void signIn(SignInRequestDto requestDto);
-	
+	void signIn(SignInRequestDto requestDto);	
 }
