@@ -1,4 +1,4 @@
-package com.korit.crud.dto.auth;
+	package com.korit.crud.dto.auth;
 
 import java.util.Scanner;
 

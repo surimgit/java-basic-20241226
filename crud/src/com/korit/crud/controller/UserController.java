@@ -1,12 +1,15 @@
 package com.korit.crud.controller;
 
-import com.korit.crud.dto.user.DeleteUserRequestDto;
+import com.korit.crud.dto.user.DeleteSignInUserRequestDto;
 import com.korit.crud.dto.user.PatchSignInUserRequestDto;
 
 public interface UserController {
-	void getSignInUserInformation();
-	
-	void patchSignInUserInformation(PatchSignInUserRequestDto requestDto);
-
-	void deleteSignInUser(DeleteUserRequestDto requestDto);
+	void getSignInUser();
+	void patchSignInUser(PatchSignInUserRequestDto requestDto);
+	void deleteSignInUser(DeleteSignInUserRequestDto requestDto);
 }
+
+
+
+
+
